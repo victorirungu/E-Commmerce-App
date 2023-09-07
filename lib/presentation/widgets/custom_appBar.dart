@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import '../../presentation/routes/app_router.dart' as route;
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   const CustomAppBar({
     Key? key,
